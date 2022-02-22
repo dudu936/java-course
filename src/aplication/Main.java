@@ -11,7 +11,7 @@ public class Main {
         System.out.println("Hello word!");
         System.out.println("How are you?");
         String result = scanner.nextLine().toUpperCase(Locale.ROOT);
-        if (result == "FINE"){
+        if (result.equals("FINE")){
             System.out.println("That is so good");
         }else {
             System.out.println("That is so bad");
